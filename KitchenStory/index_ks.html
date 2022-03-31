@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font CodeCSS Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font CodeCSS End -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- font code start -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Old+Standard+TT:wght@700&family=Source+Serif+4:ital,wght@1,300&display=swap" rel="stylesheet">
+<!-- font code end -->
+    <title>Ravikant Login form</title>
+
+    <link rel="stylesheet" href="css/ks_login_style.css" >
+</head>
+<body >
+<!-- start coding area  -->
+        
+        <section class="form my-4 mx-5 " >
+            <!-- Image section start -->
+        <div class="container py-5" >
+            <div class="row " >
+                <div class="col-md-5 py-5 ">
+                    
+                   
+                <img src="https://m.media-amazon.com/images/I/41orwLNFd-L.jpg" alt="dashboard_image"  class="img-fluid">
+            
+        </div>
+            <!-- Image section End -->
+            <div class="col-md-7  px-5 pt-5">
+                
+                
+                    <div class="form-row no-gutters">
+                        <h1 class="text-primary font-weight-bold py-3 ">Kitchen Story</h1>
+                        <h4 class="text-secondary">Sign into your account</h4>
+                            <div class="col-md-7 ">
+                                <input type="email" class="form-control my-3 p-3" id="email" placeholder="Enter your email">
+                            </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-7">
+                            <input type="password" class="form-control my-3 p-3" id="password" placeholder="********">
+                        </div>
+
+                </div>
+
+                    <!-- Start captcha Segment -->
+                    <div class="row" >
+                        
+                        <div class="col-lg-3 ">
+                            <img class="captcha " src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2014/09/avoid-captcha.jpg" alt="">
+                        </div>
+                        <div class="col-lg-4 py-3">
+                            <input type="text" class="form-control " id="captcha" placeholder="input captcha">
+                            <span id="cap"></span>
+                        </div>      
+                    
+                     </div>
+
+                    <!--End Captcha Segment-->
+
+
+                <div class="form-row  py-2">
+                    <div class="col-md-4">
+                        <input type="checkbox" id="KS" name="KS" value="True">
+                            <label for="KS"> Keep me signed </label>
+                    </div>
+
+                <div class="form-row text-center py-2">
+                    <div class="col-md-7">
+                        <button type="button text-center text-bold" onclick="login()" class=" btn btn-primary">Login</button>
+                    </div>
+                
+            </div>
+            <a href="#">Forgot password</a><a href="#">Admin Login</a>
+            <p class="text-danger">Don't have an account!-- <a href="ks_registration.html">Sign Up here</a></p>
+
+        
+
+                
+            </div>
+            </div>
+        </div>
+
+
+          
+
+
+        </section>
+
+
+
+
+
+
+<!-- End coding area -->
+
+
+ <!-- CDN code for bootstrap    -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- link my javascript.js -->
+  <script src="js/kitchenstory.js"></script>
+</body>
+</html>
